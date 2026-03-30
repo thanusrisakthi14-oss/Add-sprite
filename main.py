@@ -2,16 +2,12 @@ import pygame
 pygame.init()
 WIDTH,HEIGHT=800,600
 screen=pygame.display.set_mode((WIDTH,HEIGHT))
-pygame.display.set_caption("Collision Detection")
+pygame.display.set_caption("game colour")
 clock=pygame.time.Clock()
-
 
 BLUE=(0,0,255)
 RED=(255,0,0)
 WHITE=(255,255,255)
-
-
-
 
 class Player(pygame.sprite.Sprite):
     def __init__(self):
